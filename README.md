@@ -70,7 +70,16 @@ module.exports = {
       {
         test: /\.css/,
         exclude: /node_modules/,
-        use: ["css-loader"]
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+              modules: true
+            }
+          }
+        ]
       }
     ],
   },
@@ -136,7 +145,6 @@ In folder `public`, create a new file `ìndex.html` width content
     <body>
         <noscript>Enable javascript to work</noscript>
         <div id="root"></div>
-        <script src="../src/app.js"></script>
     </body>
 </html>
 ```
@@ -171,7 +179,18 @@ ReactDOM.render(<App />, document.getElementById('root'))
 >`index.css`
 ```css
 body {
-    background: blue;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 200px;
 }
 ```
 
