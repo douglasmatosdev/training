@@ -1,16 +1,13 @@
 {
   "name": "tranning",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is for learning more deep about ReactJS, webpack, babel, jest, etc..",
   "main": "./src/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot --port 3000",
     "build": "webpack --mode production"
   },
-  "keywords": [
-    
-  ],
-  "author": "",
+  "author": "Douglas Matos da Silva - douglasmatosdev",
   "license": "ISC",
   "dependencies": {
     "react": "^16.13.1",
