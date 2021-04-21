@@ -1,3 +1,7 @@
+
+# Tranning ReactJS, Webpack, Babel, Jest, Typescript
+## Setup Application React with `webpack` and `babel` without `create-react-app` from scratch with minimal setttings
+
 I'm using package manage `yarn`
 
 Initializing project
