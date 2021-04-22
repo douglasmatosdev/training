@@ -1,5 +1,5 @@
 
-# Tranning
+# Training
 
 ## Overview
 > The focus of this repository is not to create an application or develop an app, the real focus of this repository is to learn how to set up a project little by little.
